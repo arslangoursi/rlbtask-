@@ -11,6 +11,10 @@ body {
   overflow-x: hidden;
   width: 100%;
 }
+.App {
+  max-width: 1520px;
+  margin: auto;
+}
 .header__section {
   width: 100%;
   max-width: 1520px;
@@ -178,5 +182,49 @@ body {
   background-color: #000000;
   color: white;
 }
-@media (max-width: 1440px) {
+.we_find_job img {
+  width: 550px;
+  position: absolute;
+  margin-top: -22em;
+  position: absolute;
 }
+.we_find_job__abstract {
+  /* position: relative; */
+  color: white;
+}
+.we_find_job__abstract img {
+  position: relative;
+  width: 750px;
+  margin-top: 1em;
+}
+.we_find_job__abstract__heading {
+  margin-top: -6em;
+  position: relative;
+  margin-left: 10.5em;
+  font-size: 26px;
+  font-weight: bold;
+}
+.we_find_job__abstract__subheading {
+  position: relative;
+  margin-top: 0.5em;
+  margin-left: 17.5em;
+  font-size: 16px;
+  /* font-weight: bold; */
+}
+.we_find_job__abstract__button {
+  position: relative;
+  margin-left: 20em;
+  width: fit-content;
+  background-color: #ee7a27;
+  padding: 1em;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 1em;
+  cursor: pointer;
+}
+.we_find_job__abstract__button:hover {
+  background-color: #000000;
+}
+/* @media (max-width: 1440px) {
+} */

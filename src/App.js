@@ -6,6 +6,8 @@ import { Field } from "./components/Field.jsx";
 import Fieldd from "./assets/fieldd.png";
 import Fieldd2 from "./assets/fieldd2.png";
 import Fieldd3 from "./assets/fieldd3.png";
+import Findjob from "./assets/findjob.png";
+import Findjobabs from "./assets/findjobabs.png";
 
 function App() {
   return (
@@ -32,8 +34,7 @@ function App() {
                 <span>You Deserve</span>
               </div>
               <div className="header__section__tellus">
-                Tell us who you are and let us <br />
-                find the best job for you!
+                Tell us who you are and let us find the best job for you!
               </div>
               <div className="header__info__left__button">
                 Start Now
@@ -99,6 +100,19 @@ function App() {
         </div>
         <div className="choose__field__button">
           Find 1676 Technical Vacanciess
+        </div>
+      </div>
+      <div className="we_find_job">
+        <img src={Findjobabs} alt="findjobabs" />
+        <div className="we_find_job__abstract">
+          <img src={Findjob} alt="findjob" />
+          <div className="we_find_job__abstract__heading">
+            We find the job for you
+          </div>
+          <div className="we_find_job__abstract__subheading">
+            Sign up as a job seeker and put us to work.
+          </div>
+          <div className="we_find_job__abstract__button">Register Directly</div>
         </div>
       </div>
     </div>
